@@ -45,8 +45,13 @@ docker-run:
 
 ## start: build and run local project
 .PHONY: start
-start: build
-	air
+start:
+	go run .
+
+## air: build and run local project
+.PHONY: air
+air:
+	go run github.com/air-verse/air@latest
 
 ## css: build tailwindcss
 .PHONY: css
