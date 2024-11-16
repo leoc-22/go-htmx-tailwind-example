@@ -1,4 +1,4 @@
-module github.com/jritsema/go-htmx-starter
+module github.com/leoc-22/go-htmx-starter
 
 go 1.22
 

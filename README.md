@@ -16,7 +16,8 @@ This project implements a pure dynamic web app with SPA-like features but withou
   vet           vet code
   test          run unit tests
   build         build a binary
-  dockerbuild   build project into a docker container image
+  docker-build  build project into a docker container image
+  docker-run    run project using the docker image
   start         build and run local project
   css           build tailwindcss
   css-watch     watch build tailwindcss
